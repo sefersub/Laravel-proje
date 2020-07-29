@@ -11,3 +11,7 @@ Route::get('/',function (){
    $blog->increment('viewer');
    dd($blog);
 });
+
+Route::get('/ekle',function (){
+   return view('x');
+});
